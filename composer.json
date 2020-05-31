@@ -7,12 +7,19 @@
             "email": "laurent.cetinsoy@gmail.com"
         }
     ],
+    
+    "autoload": {
+        "psr-4": {
+          "phpunitauto\\": "src"   
+        }
+    },
     "require": {
         "symfony/console": "^5.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5",
         "php-deal/framework": "^1.0",
-        "hoa/praspel": "1.17.01.10"
+        "hoa/praspel": "1.17.01.10",
+        "symfony/var-dumper": "^5.0"
     }
 }
